@@ -68,6 +68,7 @@ enum ListType {
 }
 
 fn main() {
+    
     let args = Args::parse();
 
     if let Some(name) = args.add {
